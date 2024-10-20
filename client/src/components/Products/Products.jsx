@@ -1,9 +1,9 @@
 // import React from 'react'
-import Women1 from '/src/assets/images/Women1.jpg';
-import Women2 from "/src/assets/images/Women2.jpg";
-import Women3 from "/src/assets/images/Women3.jpg";
-import Women4 from "/src/assets/images/Women4.jpg";
-import Women5 from "/src/assets/images/Women5.jpg";
+import Women1 from '../../assets/images/Women1.jpg';
+import Women2 from "../../assets/images/Women2.jpg";
+import Women3 from "../../assets/images/Women3.jpg";
+import Women4 from "../../assets/images/Women4.jpg";
+import Women5 from "../../assets/images/Women5.jpg";
 import { FaStar } from "react-icons/fa6";
 
 

@@ -1,7 +1,7 @@
 // import React from 'react'
-import Image1 from "/src/assets/images/Shirt1.png";
-import Image2 from "/src/assets/images/Shirt1.png";
-import Image3 from "/src/assets/images/Shirt1.png";
+import Image1 from "../../assets/images/Shirt1.png";
+import Image2 from "../../assets/images/Shirt1.png";
+import Image3 from "../../assets/images/Shirt1.png";
 import { FaStar } from "react-icons/fa6";
 // import AOS from "aos"
 

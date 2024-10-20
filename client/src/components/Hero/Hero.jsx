@@ -1,7 +1,7 @@
 // import React from 'react'
-import Image1 from "/src/assets/images/Image1.png";
-import Image2 from "/src/assets/images/Image2.png";
-import Image3 from "/src/assets/images/Image3.png";
+import Image1 from "../../assets/images/Image1.png";
+import Image2 from "../../assets/images/Image2.png";
+import Image3 from "../../assets/images/Image3.png";
 import Slider from "react-slick";
 
 const Hero = () => {
