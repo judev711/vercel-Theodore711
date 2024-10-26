@@ -1,57 +1,54 @@
 // import React from 'react'
-import Women1 from '../../assets/images/Women1.jpg';
+import Women1 from "../../assets/images/Image1.png";
 import Women2 from "../../assets/images/Women2.jpg";
 import Women3 from "../../assets/images/Women3.jpg";
 import Women4 from "../../assets/images/Women4.jpg";
 import Women5 from "../../assets/images/Women5.jpg";
 import { FaStar } from "react-icons/fa6";
 
-
-
 const Products = () => {
- 
   const products = [
     {
-      id:1,
-      img:Women1,
+      id: 1,
+      img: Women1,
       title: "Printed T-Shirt",
       rating: 5.0,
-      aosDelay:1200,
+      aosDelay: 1200,
       color: "red",
     },
     {
-      id:1,
-      img:Women2,
+      id: 1,
+      img: Women2,
       title: "Printed T-Shirt",
       rating: 5.0,
-      aosDelay:1000,
+      aosDelay: 1000,
       color: "red",
     },
     {
-      id:1,
-      img:Women3,
+      id: 1,
+      img: Women3,
       title: "Printed T-Shirt",
       rating: 5.0,
-      aosDelay:2000,
+      aosDelay: 2000,
       color: "red",
     },
     {
-      id:1,
-      img:Women4,
+      id: 1,
+      img: Women4,
       title: "Printed T-Shirt",
       rating: 5.0,
-      delay:3000,
+      delay: 3000,
       color: "red",
     },
     {
-      id:1,
-      img:Women5,
+      id: 1,
+      img: Women5,
       title: "Printed T-Shirt",
       rating: 5.0,
-      aosDelay:4000,
+      aosDelay: 4000,
       color: "red",
-    }
-  ]
+    },
+  ];
   return (
     <div className="">
       <div className="mt-12">
@@ -66,13 +63,8 @@ const Products = () => {
           </div>
           <div className="grid grid-cols-1 gap-2 sm:grid-cols-3 md:grid-cols-4    lg:grid-cols-5  mt-10 place-items-center">
             {products.map((data) => (
-              <div
-                data-aos="zoom-in"
-                
-                className=""
-                key={data.id}
-              >
-                <div  className="">
+              <div data-aos="zoom-in" className="" key={data.id}>
+                <div className="">
                   <img
                     src={data.img}
                     className="h-[220px] w-[150px] object-cover rounded-md"
@@ -93,6 +85,6 @@ const Products = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Products
+export default Products;
