@@ -7,7 +7,7 @@ import Women5 from "../../assets/images/Women5.jpg";
 import { FaStar } from "react-icons/fa6";
 
 const Products = () => {
-  const products = [
+  const data = [
     {
       id: 1,
       img: Women1,
@@ -17,7 +17,7 @@ const Products = () => {
       color: "red",
     },
     {
-      id: 1,
+      id: 2,
       img: Women2,
       title: "Printed T-Shirt",
       rating: 5.0,
@@ -25,7 +25,7 @@ const Products = () => {
       color: "red",
     },
     {
-      id: 1,
+      id: 3,
       img: Women3,
       title: "Printed T-Shirt",
       rating: 5.0,
@@ -33,7 +33,7 @@ const Products = () => {
       color: "red",
     },
     {
-      id: 1,
+      id: 4,
       img: Women4,
       title: "Printed T-Shirt",
       rating: 5.0,
@@ -41,7 +41,7 @@ const Products = () => {
       color: "red",
     },
     {
-      id: 1,
+      id: 5,
       img: Women5,
       title: "Printed T-Shirt",
       rating: 5.0,
@@ -62,7 +62,7 @@ const Products = () => {
             </p>
           </div>
           <div className="grid grid-cols-1 gap-2 sm:grid-cols-3 md:grid-cols-4    lg:grid-cols-5  mt-10 place-items-center">
-            {products.map((data) => (
+            {data.map((data) => (
               <div data-aos="zoom-in" className="" key={data.id}>
                 <div className="">
                   <img
